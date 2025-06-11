@@ -8,7 +8,6 @@ Estrutura do Repositório
 ├── .env.example
 ├── df_agent.py
 ├── talking_llm.py
-├── df_rent.csv
 └── README.md
 
 **TalkingLLM: Seu Assistente de Voz Interativo**
@@ -68,7 +67,7 @@ Este projeto demonstra como usar um LLM (via LangChain) para interagir e analisa
   - Configuração da Chave da API OpenAI:
       Certifique-se de que o arquivo .env com OPENAI_API_KEY esteja configurado conforme descrito na seção do TalkingLLM.
   - Preparação do Conjunto de Dados:
-      Certifique-se de que o arquivo df_rent.csv (ou o nome que você usa para seu CSV) esteja na mesma pasta que df_agent.py.       Este é o DataFrame que o agente irá analisar.
+      Certifique-se de que o arquivo csv esteja na mesma pasta que df_agent.py. Este é o DataFrame que o agente irá analisar.
   - Executar o Aplicativo:
       Bash
       python df_agent.py
